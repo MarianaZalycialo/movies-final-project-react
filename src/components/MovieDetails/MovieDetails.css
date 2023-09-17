@@ -1,0 +1,26 @@
+.movie-details {
+    padding: 100px;
+    background: rgba(1, 1, 122, 0.6);
+}
+
+.img {
+    width: 270px;
+}
+p {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 24px;
+}
+.genres {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.genre {
+    background-color: #61dafb;
+    padding: 10px;
+    font-size: 21px;
+    border-radius: 6px;
+}

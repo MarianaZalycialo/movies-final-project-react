@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-image: url("./assets/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  height: 100%;
 }
 
 .App-logo {
@@ -11,6 +17,26 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.light > .header-container {
+  background: #0a1659;
+}
+
+.dark > .header-container {
+  background: #020510;
+}
+
+.light button {
+  background: #61dafb;
+}
+
+.dark button {
+  background: #184c59;
+}
+
+.dark .genre-block {
+  background: #020231;
 }
 
 .App-header {

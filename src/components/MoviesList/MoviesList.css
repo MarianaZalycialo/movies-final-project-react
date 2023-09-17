@@ -1,0 +1,22 @@
+.movieList-page {
+    padding-top: 100px;
+}
+
+.movieList-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto 40px;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+input {
+    height: 32px;
+    border-radius: 6px;
+    border: solid 1px blueviolet;
+    font-size: 21px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
